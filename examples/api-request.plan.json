@@ -1,0 +1,14 @@
+{
+  "status": "plan_only_never_sent",
+  "execution_enabled": false,
+  "required_before_execution": ["explicit_user_budget", "call_count_limit", "current_model_gif_preview_access", "current_official_docs_recheck"],
+  "request_body_example": {
+    "model": "gpt-image-2.6-flare",
+    "prompt": "原创海獭右爪抬起挥动两次再放下，肩膀与表情自然配合，回到起点，固定镜头，纯色背景，无文字。不是静态图整体摇摆。",
+    "n": 1,
+    "output_format": "gif",
+    "frame_count": 12,
+    "frame_duration_ms": 200,
+    "size": "auto"
+  }
+}

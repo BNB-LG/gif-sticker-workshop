@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "input_name": "otter-wave-gif-test.gif",
+  "actual_format": "GIF",
+  "signature": "GIF89a",
+  "size_bytes": 523723,
+  "sha256": "661dbf829292b61849211d3b97710c24834638dc595bd017177b5c13acf9716f",
+  "dimensions": {
+    "width": 363,
+    "height": 363
+  },
+  "frame_count": 12,
+  "distinct_frames": 12,
+  "duration_ms": 2400,
+  "loop": {
+    "raw": 0,
+    "mode": "infinite"
+  },
+  "frames": [
+    {
+      "index": 0,
+      "duration_ms": 200,
+      "sha256_rgba": "19c82fe62051dddf5d9904855ee41a2331a3715a26227ab1b547e74f7ea78999",
+      "width": 363,
+      "height": 363,
+      "disposal": 2
+    },
+    {
+      "index": 1,
+      "duration_ms": 200,
+      "sha256_rgba": "01d99b2aaabbd444fe37d0c6632bfae2bc50902099d4e7cea1da17b1de3cb6d4",
+      "width": 363,
+      "height": 363,
+      "disposal": 2
+    },
+    {
+      "index": 2,
+      "duration_ms": 200,
+      "sha256_rgba": "542cb0ad7b376f8022489eddf970714b5bf1c10cb788450f5fe57285803a4a59",
+      "width": 363,
+      "height": 363,
+      "disposal": 2
+    },
+    {
+      "index": 3,
+      "duration_ms": 200,
+      "sha256_rgba": "b37b81c20d68c71da73f8e8527fce924aba336d55f0b0d6d64ca1d8795e19f88",
+      "width": 363,
+      "height": 363,
+      "disposal": 2
+    },
+    {
+      "index": 4,
+      "duration_ms": 200,
+      "sha256_rgba": "ba2ae6e573a1d22b66833e1f08515c583381851fc03aac65a0e69a330e99cc8e",
+      "width": 363,
+      "height": 363,
+      "disposal": 2
+    },
+    {
+      "index": 5,
+      "duration_ms": 200,
+      "sha256_rgba": "55b8ec9651f06bca47bb19608c06a4d12d1d0e3d398f67d6cdb93c5b856ca7ff",
+      "width": 363,
+      "height": 363,
+      "disposal": 2
+    },
+    {
+      "index": 6,
+      "duration_ms": 200,
+      "sha256_rgba": "b493031e1a388a00f53250df9da11355167120f6ba1c5adf63e9526553d3d42f",
+      "width": 363,
+      "height": 363,
+      "disposal": 2
+    },
+    {
+      "index": 7,
+      "duration_ms": 200,
+      "sha256_rgba": "ba0cfcb17cda562a97affe6107cd1dc230ca2b9e814cc3524215525f7da032d8",
+      "width": 363,
+      "height": 363,
+      "disposal": 2
+    },
+    {
+      "index": 8,
+      "duration_ms": 200,
+      "sha256_rgba": "2ad6e7430efff4cada7b9a4185e86455563d873ef43dbae9d60948f923e73dba",
+      "width": 363,
+      "height": 363,
+      "disposal": 2
+    },
+    {
+      "index": 9,
+      "duration_ms": 200,
+      "sha256_rgba": "9e6e0b3069fd1bdc285287352eca282e86218ae5f658ff721c0cd8c011cbb530",
+      "width": 363,
+      "height": 363,
+      "disposal": 2
+    },
+    {
+      "index": 10,
+      "duration_ms": 200,
+      "sha256_rgba": "32631a93ec9ef1c2d20fbedb31fa21eacdbf5a053da9d6f3d4b2adc6987c1c1f",
+      "width": 363,
+      "height": 363,
+      "disposal": 2
+    },
+    {
+      "index": 11,
+      "duration_ms": 200,
+      "sha256_rgba": "fceb10f1ab66deb47533f64e2f4394bdbca144a4088fdb627b654a1bbe52bc6b",
+      "width": 363,
+      "height": 363,
+      "disposal": 2
+    }
+  ],
+  "decode_complete": true,
+  "technical_status": "pass",
+  "errors": [],
+  "warnings": [],
+  "platform": {
+    "status": "not_evaluated",
+    "profile": null,
+    "compliant": null
+  },
+  "provenance": {
+    "status": "not_inferred_from_pixels",
+    "model_id": null
+  },
+  "visual_review": "pending_human_review",
+  "submission_ready": false,
+  "artifacts": {
+    "json": "audit.json",
+    "contact_sheet": "contact-sheet.png",
+    "html": "preview.html",
+    "frames": "frames/"
+  }
+}

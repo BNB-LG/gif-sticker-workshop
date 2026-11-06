@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "file": "otter-wave-gif-test.gif",
+  "source": "User-provided existing ChatGPT GIF; copied with explicit permission",
+  "source_evidence": "ChatGPT conversation and GIF download UI observed during production; model identifier was not displayed",
+  "model_id": null,
+  "model_2_6_verified": false,
+  "generated_in_this_repository": false,
+  "relationship_to_planning_manifest": "Independent audit sample; not an output of the eight planned actions",
+  "rights_note": "User-authorized self-owned example; no third-party reference repository imagery reused. MIT applies to repository code and documentation. No representation of exclusive copyright or platform acceptance for the AI-generated sample.",
+  "expected_metrics_from_user": {"width": 363, "height": 363, "frame_count": 12, "duration_ms": 2400, "size_bytes": 523723},
+  "local_measurements": "qa/audit.json",
+  "visual_acceptance": "pending",
+  "platform_acceptance": "not_verified"
+}

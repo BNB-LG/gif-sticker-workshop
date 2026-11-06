@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "platform": "wechat",
+  "status": "pending_official_verification",
+  "usable_for_compliance": false,
+  "official_source_url": null,
+  "retrieved_at": null,
+  "rule_version": null,
+  "reviewer": null,
+  "submission_surface": null,
+  "limits": null,
+  "missing": [
+    "区分聊天添加与表情开放平台投稿，确认素材类型和适用入口",
+    "查阅官方当前格式、尺寸、体积、数量、时长和透明处理规则",
+    "核对封面、图标、版权材料、内容审核及提交要求",
+    "保留官方来源、核对日期、版本和人工复核证据",
+    "实现并测试对应规则检查；当前 CLI 不执行 profile",
+    "取得用户上传授权，并在平台读回结果"
+  ],
+  "submission_ready": false
+}

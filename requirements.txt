@@ -1,0 +1,2 @@
+# Dependency declaration only; no automatic installation.
+Pillow==12.1.1

@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "title": "小潮的八个日常回应",
+  "status": "planned_not_generated",
+  "generated_count": 0,
+  "generation_authorized": false,
+  "platform": "wechat_intended_not_validated",
+  "character_anchor": {
+    "status": "text_concept_pending_visual_review",
+    "concept": "原创拟人海獭，圆而不扁的头，短椭圆耳，浅色口鼻区，小深色三角鼻；身长约两个头高；双爪短圆，轮廓清晰。",
+    "palette": "灰褐身体、米白口鼻和胸前、青绿左腕织带及一针黄色缝线；纯色浅灰背景。",
+    "fixed_details": ["左腕织带不得换到右侧", "鼻形和头身比例保持一致", "两耳和双爪数量稳定", "无第三方标识或现有角色配件"],
+    "camera": "固定正面略偏三分之四，完整留出爪和头顶空间，不使用镜头推拉",
+    "rights_review": "原创文字概念；尚未生成，无法预先完成视觉相似性与权利复核"
+  },
+  "production_plan": {
+    "pilot_ids": ["otter-01", "otter-02"],
+    "batch_gate": "只在两个试样各自通过技术检查、人工审查并获用户接受后，再讨论扩批",
+    "method": "native_gif_when_supported_and_authorized",
+    "not_allowed_as_substitute": ["整张静态图摇摆", "更改扩展名冒充 GIF", "把本地补间说成模型原生动作"],
+    "captions": "只作为聊天语义标签，首轮不要求模型画进图里"
+  },
+  "actions": [
+    {
+      "id": "otter-01", "caption": "我来啦", "status": "planned_not_generated", "output": null,
+      "beats": ["双爪收在胸前，抬眼", "右爪举到耳边，手腕左右轻摆两次，肩膀跟随", "右爪放回，嘴角放松"],
+      "loop_join": "双爪回到同一高度，视线回正",
+      "review_focus": "右爪不是僵硬旋转的剪纸，左腕配件不漂移"
+    },
+    {
+      "id": "otter-02", "caption": "收到", "status": "planned_not_generated", "output": null,
+      "beats": ["直视对方，双爪轻合", "下巴轻收点头一次，同时两爪短暂握紧", "抬头，松开两爪"],
+      "loop_join": "头部高度和爪间距离回到起点",
+      "review_focus": "颈肩联动而非整张画上下平移"
+    },
+    {
+      "id": "otter-03", "caption": "听着呢", "status": "planned_not_generated", "output": null,
+      "beats": ["眉眼平静，双爪自然垂下", "左爪拢到耳边，头微侧向对方，眉毛轻抬", "头回正，左爪落下"],
+      "loop_join": "耳朵轮廓与左腕织带恢复原位置",
+      "review_focus": "手爪不能穿过耳朵，左右身份不翻转"
+    },
+    {
+      "id": "otter-04", "caption": "容我想想", "status": "planned_not_generated", "output": null,
+      "beats": ["双爪在腹前，目视前方", "右爪触下巴，目光稍向上，嘴角轻收", "眼神回到前方，右爪放下"],
+      "loop_join": "右爪回腹前，不凭空多出道具",
+      "review_focus": "鼻口与手爪交叠处不融合，眼睛不变形"
+    },
+    {
+      "id": "otter-05", "caption": "替你开心", "status": "planned_not_generated", "output": null,
+      "beats": ["双爪分开放在胸前", "两爪靠拢轻拍两次，眼睛笑弯，肩膀轻提", "双爪分开，肩膀放松"],
+      "loop_join": "掌间距离和肩线回到初始状态",
+      "review_focus": "拍掌时两爪仍可分辨，不增减手指或手爪"
+    },
+    {
+      "id": "otter-06", "caption": "缓一缓", "status": "planned_not_generated", "output": null,
+      "beats": ["双爪抱着自有素色小杯，眼睛睁开", "肩膀缓慢下沉，轻闭眼呼气，杯子稳住", "睁眼，肩膀恢复自然高度"],
+      "loop_join": "杯沿与双爪回到同一位置",
+      "review_focus": "呼吸来自身体形态变化，不靠整图缩放；杯子不变形"
+    },
+    {
+      "id": "otter-07", "caption": "差一点点", "status": "planned_not_generated", "output": null,
+      "beats": ["右爪举在胸前，眉毛微挑", "右爪与左爪之间留一条小缝，身体轻前倾", "身体回正，两爪放松分开"],
+      "loop_join": "胸前空间恢复，身体重心回稳",
+      "review_focus": "爪间空隙可读，前倾不造成头部比例突变"
+    },
+    {
+      "id": "otter-08", "caption": "回头聊", "status": "planned_not_generated", "output": null,
+      "beats": ["正面站稳，双爪在身旁", "上身轻转三分之一，回头看向对方，右爪短挥一次", "上身和头依次转回，右爪落下"],
+      "loop_join": "头先回正、肩线随后回正，避免倒放动作",
+      "review_focus": "转身时耳朵和配件遮挡合理，不能整图镜像"
+    }
+  ]
+}
